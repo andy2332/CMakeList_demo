@@ -1,0 +1,11 @@
+# CMakeList_demo
+use clang
+
+using:
+    cd build_bin
+    mkdir build 
+    cd build
+    cmake -DCMAKE_TOOLCHAIN_FILE=../cmake/linux_toolchain_clang.cmake  ..
+    make
+    
+
